@@ -1,6 +1,6 @@
 .header{
     background-color: black;
-    
+    color: yellow;
     margin: 0 auto;
     padding: 20px;
     margin-bottom: 10px;
@@ -9,7 +9,7 @@
     z-index: -1;
     float: right;
     position: relative;
-    
+    z-index: 2;
 }
 body{
     margin: 0;
@@ -17,4 +17,11 @@ body{
 }
 .cor-visus{
     color: yellow;
+}
+.texto-principal{
+    margin-top: 10%;
+    margin-left: 5%;
+}
+.warp{
+    z-index: 1;
 }
