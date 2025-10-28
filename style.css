@@ -1,27 +1,65 @@
-.header{
-    background-color: black;
-    color: yellow;
-    margin: 0 auto;
-    padding: 20px;
-    margin-bottom: 10px;
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  color: #1e1e2f;
+  background-color: #fff;
 }
-.img-fundo{
-    z-index: -1;
-    float: right;
-    position: relative;
-    z-index: 2;
+
+header {
+  background-color: #12214a;
+  color: #ffcc00;
+  padding: 10px 30px;
+  font-weight: bold;
+  font-size: 18px;
 }
-body{
-    margin: 0;
-    padding: 0;
+
+.titulo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 10%;
 }
-.cor-visus{
-    color: yellow;
+
+.conteudo-titulo h1 {
+  font-size: 42px;
+  margin-bottom: 10px;
 }
-.texto-principal{
-    margin-top: 10%;
-    margin-left: 5%;
+
+.conteudo-titulo p {
+  color: #555;
+  font-size: 18px;
+  max-width: 400px;
 }
-.warp{
-    z-index: 1;
+
+.hero-img {
+  width: 200px;
+}
+
+.sobre1 {
+  background-color: #12214a;
+  color: #fff;
+  padding: 60px 10%;
+}
+
+.sobre1 h2 {
+  color: #ffcc00;
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+.conteudo-sobre {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.conteudo-sobre .texto1 {
+  max-width: 400px;
+  line-height: 1.6;
+}
+
+.imagem-sobre1 {
+  width: 250px;
+  border-radius: 10px;
 }
