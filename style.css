@@ -6,7 +6,7 @@ body {
 }
 
 header {
-  background-color: #12214a;
+  background-color: #23305B;
   color: #ffcc00;
   padding: 10px 30px;
   font-weight: bold;
@@ -31,12 +31,12 @@ header {
   max-width: 400px;
 }
 
-.hero-img {
-  width: 200px;
+.titulo-img {
+  width: 500px;
 }
 
 .sobre1 {
-  background-color: #12214a;
+  background-color: #23305B;
   color: #fff;
   padding: 60px 10%;
 }
@@ -59,7 +59,77 @@ header {
   line-height: 1.6;
 }
 
-.imagem-sobre1 {
-  width: 250px;
+.img-sobre1 {
+  width: 350px;
   border-radius: 10px;
+}
+/* parte do "trabalho" */
+.trab {
+  padding: 60px 10%;
+  background: #fff;
+}
+
+.trab h2 {
+  font-size: 30px;
+  color: #23305B;
+  margin-bottom: 40px;
+}
+
+.trab-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #eaeaea;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.card.dark {
+  background: #23305B;
+  color: #fff;
+}
+
+/* parte do time */
+.time {
+  background-color: #23305B;
+  color: #fff;
+  padding: 60px 10%;
+}
+
+.time h2 {
+  color: #ffcc00;
+  font-size: 30px;
+}
+
+.fotos-time {
+  display: flex;
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.fotos-time img {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.values-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.value-card {
+  background: #fff;
+  color: #23305B;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.value-card h4 {
+  margin-top: 0;
 }
