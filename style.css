@@ -1,6 +1,38 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('fonts/Montserrat-Regular.woff2') format('woff2'),
+         url('fonts/Montserrat-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'montserrat';
+    src: url('fonts/Montserrat-Bold.woff2') format('woff2'),
+         url('fonts/Montserrat-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Montserrat';
+    src: url('fonts/Montserrat-Regular.woff2') format('woff2'),
+         url('fonts/Montserrat-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Playfair Display';
+    src: url('fonts/Playfair_Display/static/PlayfairDisplay-Medium.ttf') format('truetype'),
+         url('fonts/PlayfairDisplay-Regular.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
+
 body {
   margin: 0;
-  font-family: "Poppins", sans-serif;
+  font-family:'Montserrat', sans-serif;
   color: #1e1e2f;
   background-color: #fff;
 }
@@ -17,22 +49,28 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 200px 10%;
+  padding: 70px 10%;
 }
 
+.titulo-pri {
+  font-family: 'Playfair Display', serif;
+  font-size: 100px;
+  margin-bottom: 10px;
+}
 .conteudo-titulo h1 {
-  font-size: 42px;
+  font-family: 'Playfair Display', serif;
+  color: #23305B;
+  font-size: 200px;
   margin-bottom: 10px;
 }
 
 .conteudo-titulo p {
-  color: #555;
-  font-size: 22px;
-  max-width: 400px;
+  font-size: 40px;
+  max-width: 750px;
 }
 
 .titulo-img {
-  width: 500px;
+  width: 650px;
 }
 
 .sobre1 {
