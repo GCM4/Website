@@ -40,33 +40,39 @@ body {
 header {
   background-color: #23305B;
   color: #ffcc00;
-  padding: 10px 30px;
+  padding: 25px 30px;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 22px;
 }
 
 .titulo {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 70px 10%;
+  padding: 170px 5%;
 }
 
 .titulo-pri {
   font-family: 'Playfair Display', serif;
   font-size: 100px;
-  margin-bottom: 10px;
+}
+.conteudo-titulo{
+  padding-bottom: 100px;
 }
 .conteudo-titulo h1 {
   font-family: 'Playfair Display', serif;
   color: #23305B;
   font-size: 200px;
   margin-bottom: 10px;
+  position: relative;
 }
 
 .conteudo-titulo p {
   font-size: 40px;
   max-width: 750px;
+  position: relative;
+  margin-top: 0;
+  color: #23305B;
 }
 
 .titulo-img {
@@ -104,7 +110,7 @@ header {
 }
 /* parte do "trabalho" */
 .trab {
-  padding: 60px 10%;
+  padding: 170px 10%;
   background: #fff;
 }
 
@@ -124,11 +130,13 @@ header {
   background: #eaeaea;
   padding: 20px;
   border-radius: 10px;
+  font-size: 18px;
 }
 
 .card.dark {
   background: #23305B;
   color: #fff;
+  font-size: 18px;
 }
 
 /* parte do time */
