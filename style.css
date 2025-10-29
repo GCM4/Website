@@ -17,7 +17,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 60px 10%;
+  padding: 200px 10%;
 }
 
 .conteudo-titulo h1 {
@@ -27,7 +27,7 @@ header {
 
 .conteudo-titulo p {
   color: #555;
-  font-size: 18px;
+  font-size: 22px;
   max-width: 400px;
 }
 
@@ -39,6 +39,7 @@ header {
   background-color: #23305B;
   color: #fff;
   padding: 60px 10%;
+  font-size: 22px;
 }
 
 .sobre1 h2 {
